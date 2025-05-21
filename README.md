@@ -181,7 +181,7 @@ plt.figure(figsize=(10, 3))
 for i, channel in enumerate([b, g, r]):
     plt.subplot(1, 3, i + 1)
     plt.imshow(channel, cmap='gray')
-plt.show()
+plt.show() 
 ```
 ![image](https://github.com/user-attachments/assets/691841de-c5be-4c1b-8271-3f4c4159962a)
 
