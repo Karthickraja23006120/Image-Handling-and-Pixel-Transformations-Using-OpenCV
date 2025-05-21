@@ -31,15 +31,17 @@ Display the original, lower contrast, and higher contrast images.
 Split the image (boy.jpg) into B, G, R components and display the channels
 
 ## Program Developed By:
-- **Name:** [Your Name Here]  
-- **Register Number:** [Your Register Number Here]
+- **Name:** Popuri Sravani
+- **Register Number:** 212223240117
 
   ### Ex. No. 01
 
 #### 1. Read the image ('Eagle_in_Flight.jpg') using OpenCV imread() as a grayscale image.
-```python
-# YOUR CODE HERE
 ```
+import cv2
+img = cv2.imread('Eagle_in_Flight.jpg', cv2.IMREAD_GRAYSCALE)
+```
+![image](https://github.com/user-attachments/assets/5395d919-9042-4f8f-ab80-ebe806b79cb5)
 
 #### 2. Print the image width, height & Channel.
 ```python
